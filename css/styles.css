@@ -1,0 +1,79 @@
+:root {
+    --color-primary: #009688;
+    --color-secondary: #edf3f3;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+  }
+  
+  .about {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+  
+  .about h4 {
+    font-weight: 500;
+    margin-bottom: 50px;
+    letter-spacing: .1rem;
+  }
+  
+  .about .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about__desc button {
+      margin-bottom: 50px;
+    }
+  }
+  
+  .about__image img {
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  .destinations {
+    background: var(--color-secondary);
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .destinations h4 {
+    font-weight: 500;
+    margin-bottom: 50px;
+    letter-spacing: .1rem;
+  }
+  
+  .testimonials {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .testimonials h4 {
+    margin-bottom: 50px;
+    font-weight: 500;
+    letter-spacing: .1rem;
+  }
+  
+  .testimonials .carousel-item {
+    width: 300px;
+    min-height: 100%;
+    padding: 1rem;
+  }
+  
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+  }
+  /*# sourceMappingURL=styles.css.map */
